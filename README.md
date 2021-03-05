@@ -25,7 +25,7 @@ Intended for use on macOS for now.
    git clone your_repo_https_url.git
    ```
 
-3. Open the script you just saved in any text editor, edit lines 5-7 and save the file changes. These edits will configure the script to your local machine and git repo.
+3. Open your local `acp-on-change.sh` in any text editor, edit lines 5-7 and save the file changes. These edits will configure the script to your local machine and git repo.
 
 ## Usage
 
