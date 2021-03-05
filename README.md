@@ -19,13 +19,13 @@ Intended for use on macOS for now.
 
 1. Download the `acp-on-change.sh` script from this repository and save it wherever you plan to execute fswatch from on your local machine.
 
-2. Open the script you just saved in any text editor, edit lines 5-7 and save the file changes. These edits will configure the script to your local machine and git repo.
-
-3. Locally clone the repository you want the automatic pushes to happen in. You can find the https url in the GitHub page for your repository under the green "Code" dropdown button where it says 'https'. Once you have this url, you can clone by running the following command in the terminal from the directory you want to clone to:
+2. Locally clone the repository you want the automatic pushes to happen in. You can find the https url for cloning in the github page for your repository under the green "Code" dropdown button where it says 'https'. Once you have this url, you can clone by running the following command in the terminal from the directory you want to clone to:
 
    ```
    git clone your_repo_https_url.git
    ```
+
+3. Open the script you just saved in any text editor, edit lines 5-7 and save the file changes. These edits will configure the script to your local machine and git repo.
 
 ## Usage
 
