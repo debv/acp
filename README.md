@@ -29,7 +29,7 @@ Intended for use on macOS for now.
 
 ## Usage
 
-To run the process, navigate to the directory where you `acp-on-change.sh` file is and run the following command, replacing <DIRECTORY_TO_MONITOR> with the path to the directory you want to monitor:
+To run the process, navigate to the directory where you `acp-on-change.sh` file is and run the following command, replacing DIRECTORY_TO_MONITOR with the path to the directory you want to monitor:
 
 ```
 fswatch -0 DIRECTORY_TO_MONITOR | xargs -0 -n 1 sh "./acp-on-change.sh"
