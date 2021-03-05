@@ -21,13 +21,11 @@ Currently only for macOS.
 
 2. Open the script you just saved in any text editor, edit lines 5-7 and save the file changes. These edits will configure the script to your local machine and git repo.
 
-3. Locally clone the repository you plan to push your changes to. You can do this in the terminal by running the following command in your desired location:
+3. Locally clone the repository you plan to push your changes to. You can find the https url in the GitHub page for your repository under the green "Code" dropdown button where it says 'https'. Once you have this url, you can clone by running the following command in the terminal from the directory you want to clone to:
 
    ```
-   git clone <.git path from your repository>
+   git clone your_repo_https_url.git
    ```
-
-   You can find the clone path in the GitHub page for your repository on the green "Code" button under https
 
 ## Usage
 
