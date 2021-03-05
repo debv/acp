@@ -1,6 +1,6 @@
 # acp
 
-Automatically add/commit/push to your remote repository when a change is made in your local repository.
+Automatically add, commit and push to your remote repository when a change is made in your local repository.
 
 Intended for use on macOS for now.
 
@@ -29,7 +29,7 @@ Intended for use on macOS for now.
 
 ## Usage
 
-To run the process, navigate to the directory where you `acp-on-change.sh` file is and run the following command, replacing DIRECTORY_TO_MONITOR with the path to the directory you want to monitor:
+To run the process, navigate to the directory where your `acp-on-change.sh` file is and run the following command, replacing DIRECTORY_TO_MONITOR with the path to the directory you want to monitor:
 
 ```
 fswatch -0 DIRECTORY_TO_MONITOR | xargs -0 -n 1 sh "./acp-on-change.sh"
@@ -41,7 +41,7 @@ For example, this is the path I use for the directory I monitor on my computer:
 
 When you execute the fswatch command above, it will start up fswatch to monitor the directory you specified.
 
-While this process is running, every change you make within the monitored directory will trigger the `acp-on-change.sh` script to automatically add/commit/push to your git repository of those changes.
+While this process is running, every change you make within the monitored directory will trigger the `acp-on-change.sh` script to automatically add, commit and push the change to your remote git repository.
 
 If you want to change the frequency of changes that triggers the script, change the '-n 1' parameter in the fswatch command above to whatever number you want.
 
