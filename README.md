@@ -47,4 +47,4 @@ If you want to change the frequency of changes that triggers the script, change 
 
 (e.g. if you change '-n 1' to '-n 3' it will only trigger the script on every 3rd change that happens in the specified directory)
 
-To terminate the process, press `ctrl`+`c` (dot/period) while in the terminal that is running it.
+To terminate the process, press `ctrl`+`c` while in the terminal that is running it.
