@@ -9,7 +9,7 @@ REMOTE_BRANCH_TO_PUSH_TO='master'
 COMMIT_MESSAGE="auto-commit from $USER@$(hostname -s) on $(date)"
 GIT=`which git`
 
-# Add modified file(s) in specified directory, commit and push to repo
+# Add modified file(s), commit and push to repo
 cd ${REPO_DIRECTORY}
 ${GIT} add --all .
 ${GIT} commit -m "$COMMIT_MESSAGE"
