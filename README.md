@@ -1,6 +1,6 @@
 # acp
 
-Automatically add/commit/push to your GitHub repo when a directory has changes.
+Automatically add/commit/push to your remote repository when a change is made in your local repository.
 
 Intended for use on macOS for now.
 
