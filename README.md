@@ -2,7 +2,7 @@
 
 Automatically add/commit/push to your GitHub repo when a directory has changes.
 
-Made to work on macOS for now.
+Intended for use on macOS for now.
 
 ---
 
