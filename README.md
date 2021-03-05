@@ -19,7 +19,7 @@ Currently only for macOS.
 
 1. Download the `acp-on-change.sh` script from this repository and save it wherever you plan to execute fswatch from on your local machine.
 
-2. Open the file in any text editor and edit lines 1-5 and save the file changes. These edits will configure the script to your local machine and git repo.
+2. Open the script you just saved in any text editor, edit lines 5-7 and save the file changes. These edits will configure the script to your local machine and git repo.
 
 3. Locally clone the repository you plan to push your changes to. You can do this in the terminal by running the following command in your desired location:
 
